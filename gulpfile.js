@@ -13,7 +13,7 @@ gulp.task('html',function(){
     return gulp.src('myitem2/*.html')
         .pipe(minhtml({collapseWhitespace: true}))
         .pipe(rename({
-            basename:'_index'
+            basename:'indexuglify'
         }))
         .pipe(gulp.dest('myitem2/'))
 })
